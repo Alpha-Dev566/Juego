@@ -1,0 +1,19 @@
+{
+  "name": "typing-race-fingers",
+  "version": "0.1.0",
+  "description": "Juego de carrera de mecanografía multijugador con verificación de uso de dedos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --passWithNoTests"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  },
+  "devDependencies": {
+    "jest": "^29.6.1"
+  }
+}
